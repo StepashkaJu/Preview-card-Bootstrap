@@ -6,12 +6,23 @@
 }
 html {
   box-sizing: content-box;
-  font-size: $baseFontSize;
 }
 body {
   background-color: $primaryYellow;
 }
-
-// .card-text {
-//   @include baseFontBold;
-// }
+.btn {
+  background-color: $primaryYellow;
+  @include baseFontBold;
+  font-size: 12px;
+}
+.card {
+  width: 330px;
+  background-color: $neutralWhite;
+  &-title {
+    @include baseFontBold;
+    font-size: 1.2 * $baseFontSize;
+  }
+}
+.grey {
+  color: $neutralGrey;
+}

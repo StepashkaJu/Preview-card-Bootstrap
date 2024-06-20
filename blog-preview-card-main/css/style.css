@@ -6,9 +6,33 @@
 html {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  font-size: 16px;
 }
 
 body {
   background-color: hsl(47, 88%, 63%);
+}
+
+.btn {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.card {
+  width: 330px;
+  background-color: hsl(0, 0%, 100%);
+}
+.card-title {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 19.2px;
+}
+
+.grey {
+  color: hsl(0, 0%, 50%);
 }/*# sourceMappingURL=style.css.map */
