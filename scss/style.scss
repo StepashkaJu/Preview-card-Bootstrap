@@ -22,15 +22,14 @@ body {
   &-title {
     @include baseFontBold;
     font-size: 1.2 * $baseFontSize;
+    &:hover {
+      cursor: pointer;
+      color: $primaryYellow;
+    }
   }
   &:hover {
     box-shadow: 15px 15px $neutralBlack;
   }
-}
-
-.card-title:hover {
-  cursor: pointer;
-  color: $primaryYellow;
 }
 
 .grey {

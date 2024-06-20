@@ -34,14 +34,13 @@ body {
   font-style: normal;
   font-size: 19.2px;
 }
-.card:hover {
-  -webkit-box-shadow: 15px 15px hsl(0, 0%, 7%);
-          box-shadow: 15px 15px hsl(0, 0%, 7%);
-}
-
 .card-title:hover {
   cursor: pointer;
   color: hsl(47, 88%, 63%);
+}
+.card:hover {
+  -webkit-box-shadow: 15px 15px hsl(0, 0%, 7%);
+          box-shadow: 15px 15px hsl(0, 0%, 7%);
 }
 
 .grey {
