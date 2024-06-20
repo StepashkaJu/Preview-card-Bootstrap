@@ -46,4 +46,10 @@ body {
 
 .grey {
   color: hsl(0, 0%, 50%);
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 385px;
+  }
 }/*# sourceMappingURL=style.css.map */
