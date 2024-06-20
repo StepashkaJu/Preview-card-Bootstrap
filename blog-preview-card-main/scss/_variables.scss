@@ -1,0 +1,22 @@
+//Colors
+$primaryYellow: hsl(47, 88%, 63%);
+$neutralWhite: hsl(0, 0%, 100%);
+$neutralGrey: hsl(0, 0%, 50%);
+$neutralBlack: hsl(0, 0%, 7%);
+
+//Fonts
+@mixin baseFont {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin baseFontBold {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+$baseFontSize: 16px;

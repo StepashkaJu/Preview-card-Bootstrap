@@ -1,0 +1,17 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: content-box;
+  font-size: $baseFontSize;
+}
+body {
+  background-color: $primaryYellow;
+}
+
+// .card-text {
+//   @include baseFontBold;
+// }
