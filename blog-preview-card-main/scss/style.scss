@@ -18,11 +18,21 @@ body {
 .card {
   width: 330px;
   background-color: $neutralWhite;
+  box-shadow: 10px 10px $neutralBlack;
   &-title {
     @include baseFontBold;
     font-size: 1.2 * $baseFontSize;
   }
+  &:hover {
+    box-shadow: 15px 15px $neutralBlack;
+  }
 }
+
+.card-title:hover {
+  cursor: pointer;
+  color: $primaryYellow;
+}
+
 .grey {
   color: $neutralGrey;
 }
